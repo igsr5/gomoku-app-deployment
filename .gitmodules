@@ -4,3 +4,6 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:igsr5/gomoku-app-server.git
+[submodule "cpu"]
+	path = cpu
+	url = git@github.com:m-star18/Gomoku-api.git
