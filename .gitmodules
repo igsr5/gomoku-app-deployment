@@ -1,3 +1,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:igsr5/gomoku-app-front.git
+[submodule "server"]
+	path = server
+	url = git@github.com:igsr5/gomoku-app-server.git
