@@ -19,6 +19,12 @@ services:
       - "3000:3000"
     links:
       - db
+  cpu:
+      build: cpu/.
+      ports:
+          - "5000:5000"
+      volumes:
+          - ./cpu:/code
 volumes:
   bundle:
   postgres-data:
