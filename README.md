@@ -6,8 +6,10 @@
 ## set up
 ```sh
 $ git clone --recursive git@github.com:igsr5/gomoku-app-deployment.git
+$ docker-compose build
+$ docker-compose exec server yarn
 ```
 ## submodule update
 ```sh
-$ git submodule update
+$ git submodule update --remote
 ```
